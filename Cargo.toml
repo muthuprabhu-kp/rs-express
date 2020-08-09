@@ -1,0 +1,17 @@
+[package]
+name = "rspress"
+version = "0.1.0"
+authors = ["Muthu"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = "0.13"
+tokio = { version = "0.2", features = ["full"] }
+pretty_env_logger = "0.4"
+serde_json = "1.0"
+mongodb = "0.11.0"
+tera = "1"
+regex = "1"
+include_dir="0.6.0"
